@@ -1,7 +1,7 @@
 To start, run Generating_data.py to create the data for the Reyndols, Re=400, or download from here. This is necessary as the resulting file is too large to be uploaded in github.
 Once the data is available, it is possible to run the other scripts in the folder, including the Jupyeter Notebooks in ./Post_Processing/ which generate the plots from the paper.
 
-The different files are:
+The source files (which are thoroughly commented) are:
 
 - Generating_data.py: (i) solves the MFE (Moehlis et al., (2004)) equations with a fourth order Runge-Kutta method; (ii) computes the Lyapunov exponents spectrum using the QR algorithm by Ginelli et al. (2007).
 
@@ -22,6 +22,8 @@ The different files are:
 - Re_Control.py: Applies the control strategy based on increasing the Reynolds number when an event is predicted by the Echo State Network.
 - Control_Functions.py: Functions to generate suppressed time series by reintegrating the governing equations with different Reynolds.
 
-Post processing files are:
+Post processing files (not commented) jupyter notebooks:
 
-Time
+-Time_accurate.ipynb: Plots precision, recall and Prediction Horizon for extreme events.
+
+-Stats.ipynb: Plots (i) kinetic energy PDFs and error for ESN and training data, (ii) statistics of the controlled system, (iii) statistics of the flowfield for ESN and training data.
