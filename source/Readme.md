@@ -5,7 +5,7 @@ The source files (which are thoroughly commented) are:
 
 - Generating_data.py: (i) solves the MFE (Moehlis et al., (2004)) equations with a fourth order Runge-Kutta method; (ii) computes the Lyapunov exponents spectrum using the QR algorithm by Ginelli et al. (2007).
 
-- Lyapunov_expoent.py: Computes the dominant Lyapunov exponent as the average of the  perturbation evolution from different points along the traqjectory.
+- Lyapunov_exponent.py: Computes the dominant Lyapunov exponent as the average of the  perturbation evolution from different points along the traqjectory.
 
 - Val.py: Trains and validates Echo State Networks with Recycle Validation and Single Shot Validation (Racca and Magri, (2021); https://github.com/MagriLab/Robust-Validation-ESN).
 
